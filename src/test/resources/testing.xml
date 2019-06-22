@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="TestNG">
+        <parameter name="Param1" value="Value_Of_Param1"/>
+        <parameter name="Param2" value="Value_Of_Param2"/>
+        <classes>
+            <class name="com.CalcTest"/>
+            <class name="com.ConcurrencyTest"/>
+        </classes>
+    </test>
+</suite>
